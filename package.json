@@ -1,6 +1,6 @@
 {
   "name": "@priver/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable config for stylelint",
   "main": "index.js",
   "files": [
