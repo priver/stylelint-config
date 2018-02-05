@@ -1,0 +1,4 @@
+{
+    "root": true,
+    "extends": "@priver/eslint-config/node"
+}

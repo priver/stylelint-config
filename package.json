@@ -1,0 +1,46 @@
+{
+  "name": "@priver/stylelint-config",
+  "version": "0.0.0",
+  "description": "Shareable config for stylelint",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "yarn lint"
+  },
+  "homepage": "https://github.com/priver/stylelint-config",
+  "bugs": "https://github.com/priver/stylelint-config/issues",
+  "repository": "priver/stylelint-config",
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "config",
+    "priver",
+    "css",
+    "styleguide"
+  ],
+  "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-standard": "^18.0.0"
+  },
+  "devDependencies": {
+    "@priver/eslint-config": "^2.0.3",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-react": "^7.6.1",
+    "stylelint": "^8.4.0",
+    "stylelint-order": "^0.8.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^8.4.0",
+    "stylelint-order": "^0.8.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}

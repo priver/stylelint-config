@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - node
+script:
+  - yarn test
+branches:
+  only:
+    - master
+cache:
+  yarn: true
+notifications:
+  slack:
+    secure: zcHEe8Un82j/eD/lUB0dToQmt7PSwGvKRYg8riSTy79vwVQuz7su2F0xInU15+Gtfz71h4B+bXbFaqiSemI6Xfv/Zu7pcPyn9+n0FK/wSadffa18PMASaArqLOiV8Sy8vCSSHipqns1QqNbqP0gawKN/Xxqr5AYYa15CauxSmlqFQNsGnQlrEPEkJD7FQKQ2uus57Vj98FAmZAN0yFXdu5uoKgzV7qtmMyfeVHVfOVznOj7WJyWPMoPBWrqyKtjSpAxVoED7ngIRlQPJzwq9IKZn2xIlCp8EgSJQCC27qctJETW1QsKIQasEvSJ7gstFDhJS/IBGNMhSESoRjI0Yxw1wtZrV9sxe6Fi00MoYGuLzyW3Wb5vuNE4hWNHWeUIUFDHQhUAWWJ8CAidsCTj4Y4IjcHRqzAQkknaPoEWQFPQfKDIqWfXSfXHQDBMIA0DDe8ZdL1u8sdbQ2DbvVTxwycjxocunB94aGDVuO9kH39D288BPqBn9Lz1Wrnese1kv12/jRXtpX7r2ApLbtSdSVMLhOKIwYWYJKx/ATIBMS0luNP6rKwJ/gI6wiEE25964+p8pEJC/MOC6/4zdt8SGgw0Q61/dYBxxwct/fZQ1BRaTv4yZzkaoqXU0E6s/Ve6cbN7hSRLTTuSbzgJR7gp1XvI0TP84ZHw0+UnDWGAQiWE=

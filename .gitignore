@@ -1,0 +1,13 @@
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# IDE / OS files
+*.sublime-project
+*.sublime-workspace
+.idea
+.DS_Store
