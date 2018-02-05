@@ -2,14 +2,10 @@
 
 Shareable config for [stylelint]. Uses rules from [`stylelint-order`].
 
-[![build status](https://img.shields.io/travis/priver/stylelint-config/master.svg?style=flat-square)](https://travis-ci.org
-/priver/stylelint-config)
-[![npm version](https://img.shields.io/npm/v/@priver/stylelint-config.svg?style=flat-square)](https://www.npmjs.com/package
-/@priver/stylelint-config)
-[![npm downloads](https://img.shields.io/npm/dm/@priver/stylelint-config.svg?style=flat-square)](https://www.npmjs.com/pack
-age/@priver/stylelint-config)
-[![license](https://img.shields.io/github/license/priver/stylelint-config.svg?style=flat-square)](https://github.com/priver
-/stylelint-config/blob/master/LICENSE.txt)
+[![build status](https://img.shields.io/travis/priver/stylelint-config/master.svg?style=flat-square)](https://travis-ci.org/priver/stylelint-config)
+[![npm version](https://img.shields.io/npm/v/@priver/stylelint-config.svg?style=flat-square)](https://www.npmjs.com/package/@priver/stylelint-config)
+[![npm downloads](https://img.shields.io/npm/dm/@priver/stylelint-config.svg?style=flat-square)](https://www.npmjs.com/package/@priver/stylelint-config)
+[![license](https://img.shields.io/github/license/priver/stylelint-config.svg?style=flat-square)](https://github.com/priver/stylelint-config/blob/master/LICENSE.txt)
 
 ## Installation
 
