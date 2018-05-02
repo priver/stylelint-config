@@ -17,7 +17,7 @@ yarn info @priver/stylelint-config peerDependencies
 npm info @priver/stylelint-config peerDependencies
 ```
 
-Then install install this package:
+Then install this package:
 
 ```bash
 yarn add @priver/stylelint-config --dev

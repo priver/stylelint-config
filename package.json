@@ -8,7 +8,14 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "yarn lint"
+    "test": "yarn lint",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "homepage": "https://github.com/priver/stylelint-config",
   "bugs": "https://github.com/priver/stylelint-config/issues",
@@ -23,24 +30,23 @@
   ],
   "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
   "license": "MIT",
-  "dependencies": {
-    "stylelint-config-standard": "^18.0.0"
-  },
   "devDependencies": {
-    "@priver/eslint-config": "^2.0.3",
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.17.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-react": "^7.6.1",
-    "stylelint": "^8.4.0",
-    "stylelint-order": "^0.8.0"
+    "@priver/eslint-config": "^4.0.0",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "stylelint": "^9.2.0",
+    "stylelint-order": "^0.8.1"
   },
   "peerDependencies": {
-    "stylelint": "^8.4.0",
-    "stylelint-order": "^0.8.0"
+    "stylelint": "^9.2.0",
+    "stylelint-order": "^0.8.1"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   }
 }
